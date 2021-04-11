@@ -1,0 +1,11 @@
+app:
+  url: "https://robot-dreams-de-api.herokuapp.com"
+  auth:
+    end_point: "/auth"
+    payload:
+      username: "rd_dreams"
+      password: "djT6LasE"
+  out_of_stock:
+    end_point: "/out_of_stock"
+    payload:
+      date: "2021-01-02"
