@@ -5,7 +5,7 @@ import os
 from urllib.parse import urljoin
 import logging
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("app")
 
 class ConfigError(Exception):
     pass
@@ -43,6 +43,7 @@ def make_data_dir(date):
     return data_dir
 
 def _set_logger(verbose):
+    logging.basicConfig()
     if verbose:
         logger.setLevel(logging.DEBUG)
     else:
