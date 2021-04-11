@@ -7,5 +7,6 @@ app:
       password: "djT6LasE"
   out_of_stock:
     end_point: "/out_of_stock"
-    payload:
-      date: "2021-01-02"
+    dates: 
+      - "2021-01-02"
+      - "2021-01-01"
