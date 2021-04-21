@@ -88,7 +88,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--config_path", type=str, default="config.yml")
     parser.add_argument("--dates", type=str, nargs="+",
-                        default=datetime.now().strftime("%Y-%m-%d"))
+                        default=["2021-01-01"])
     parser.add_argument("--app", type=str, default="app")
     parser.add_argument("--verbose", action="store_true", default=False)
     args = parser.parse_args()
