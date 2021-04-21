@@ -7,6 +7,3 @@ app:
       password: "djT6LasE"
   out_of_stock:
     end_point: "/out_of_stock"
-    dates: 
-      - "2021-01-02"
-      - "2021-01-01"
